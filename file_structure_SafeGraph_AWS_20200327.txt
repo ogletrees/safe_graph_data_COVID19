@@ -1,0 +1,123 @@
+File structure for downloaded Safe Graph data
+2020-03-27	COVID-19 response
+
+Historical patterns data comes in a zipped folder.
+i.e. 'Apr19-AllPatterns-PATTERNS-2019_04-2020-03-23.zip'
+Unzip the monthly folders and you have...
+.
+├── historic_patterns
+│   ├── Apr19-AllPatterns-PATTERNS-2019_04-2020-03-23
+│   │   ├── README.txt
+│   │   ├── home_panel_summary.csv
+│   │   ├── patterns-part1.csv.gz
+│   │   ├── patterns-part2.csv.gz
+│   │   ├── patterns-part3.csv.gz
+│   │   └── visit_panel_summary.csv
+│   ├── Aug19-AllPatterns-PATTERNS-2019_08-2020-03-23
+│   │   ├── README.txt
+│   │   ├── home_panel_summary.csv
+│   │   ├── patterns-part1.csv.gz
+│   │   ├── patterns-part2.csv.gz
+│   │   ├── patterns-part3.csv.gz
+│   │   └── visit_panel_summary.csv
+│   ├── Dec19-AllPatterns-PATTERNS-2019_12-2020-03-23
+│   │   ├── README.txt
+│   │   ├── home_panel_summary.csv
+│   │   ├── patterns-part1.csv.gz
+│   │   ├── patterns-part2.csv.gz
+│   │   ├── patterns-part3.csv.gz
+│   │   └── visit_panel_summary.csv
+│   ├── Feb19-AllRecords-PATTERNS-2019_02-2020-03-26
+│   │   ├── README.txt
+│   │   ├── home_panel_summary.csv
+│   │   ├── patterns-part1.csv.gz
+│   │   ├── patterns-part2.csv.gz
+│   │   ├── patterns-part3.csv.gz
+│   │   └── visit_panel_summary.csv
+│   ├── Feb20-AllPatterns-PATTERNS-2020_02-2020-03-23
+│   │   ├── README.txt
+│   │   ├── home_panel_summary.csv
+│   │   ├── patterns-part1.csv.gz
+│   │   ├── patterns-part2.csv.gz
+│   │   ├── patterns-part3.csv.gz
+│   │   └── visit_panel_summary.csv
+│   ├── Jan19-AllRecords-PATTERNS-2019_01-2020-03-26
+│   │   ├── README.txt
+│   │   ├── home_panel_summary.csv
+│   │   ├── patterns-part1.csv.gz
+│   │   ├── patterns-part2.csv.gz
+│   │   ├── patterns-part3.csv.gz
+│   │   └── visit_panel_summary.csv
+│   ├── Jan20-AllPatterns-PATTERNS-2020_01-2020-03-23
+│   │   ├── README.txt
+│   │   ├── home_panel_summary.csv
+│   │   ├── patterns-part1.csv.gz
+│   │   ├── patterns-part2.csv.gz
+│   │   ├── patterns-part3.csv.gz
+│   │   └── visit_panel_summary.csv
+│   ├── Jul19-AllPatterns-PATTERNS-2019_07-2020-03-23
+│   │   ├── README.txt
+│   │   ├── home_panel_summary.csv
+│   │   ├── patterns-part1.csv.gz
+│   │   ├── patterns-part2.csv.gz
+│   │   ├── patterns-part3.csv.gz
+│   │   └── visit_panel_summary.csv
+│   ├── Jun19-AllPatterns-PATTERNS-2019_06-2020-03-23
+│   │   ├── README.txt
+│   │   ├── home_panel_summary.csv
+│   │   ├── patterns-part1.csv.gz
+│   │   ├── patterns-part2.csv.gz
+│   │   ├── patterns-part3.csv.gz
+│   │   └── visit_panel_summary.csv
+│   ├── Mar19-AllPatterns-PATTERNS-2019_03-2020-03-23
+│   │   ├── README.txt
+│   │   ├── home_panel_summary.csv
+│   │   ├── patterns-part1.csv
+│   │   ├── patterns-part1.csv.gz
+│   │   ├── patterns-part2.csv
+│   │   ├── patterns-part2.csv.gz
+│   │   ├── patterns-part3.csv
+│   │   ├── patterns-part3.csv.gz
+│   │   └── visit_panel_summary.csv
+│   ├── May19-AllPatterns-PATTERNS-2019_05-2020-03-23
+│   │   ├── README.txt
+│   │   ├── home_panel_summary.csv
+│   │   ├── patterns-part1.csv.gz
+│   │   ├── patterns-part2.csv.gz
+│   │   ├── patterns-part3.csv.gz
+│   │   └── visit_panel_summary.csv
+│   ├── Nov19-AllPatterns-PATTERNS-2019_11-2020-03-23
+│   │   ├── README.txt
+│   │   ├── home_panel_summary.csv
+│   │   ├── patterns-part1.csv.gz
+│   │   ├── patterns-part2.csv.gz
+│   │   ├── patterns-part3.csv.gz
+│   │   └── visit_panel_summary.csv
+│   ├── Oct19-AllPatterns-PATTERNS-2019_10-2020-03-23
+│   │   ├── README.txt
+│   │   ├── home_panel_summary.csv
+│   │   ├── patterns-part1.csv.gz
+│   │   ├── patterns-part2.csv.gz
+│   │   ├── patterns-part3.csv.gz
+│   │   └── visit_panel_summary.csv
+│   └── Sept19-AllPatterns-PATTERNS-2019_09-2020-03-23
+│       ├── README.txt
+│       ├── home_panel_summary.csv
+│       ├── patterns-part1.csv.gz
+│       ├── patterns-part2.csv.gz
+│       ├── patterns-part3.csv.gz
+│       └── visit_panel_summary.csv
+└── weekly_patterns
+    └── v1
+        ├── home_summary_file
+        │   ├── 2020-03-01-home-panel-summary.csv
+        │   ├── 2020-03-015-home-panel-summary.csv
+        │   ├── 2020-03-08-home-panel-summary.csv
+        │   └── 2020-03-15-home-panel-summary.csv
+        └── main-file
+            ├── 2020-03-01-weekly-patterns.csv.gz
+            ├── 2020-03-08-weekly-patterns.csv.gz
+            └── 2020-03-15-weekly-patterns.csv.gz
+
+Uncompressed weekly csv's are ~3.5GB. Each .gz extracts to a single large csv file.
+Uncompressed patterns csv's are ~1.5GB (each part file).
