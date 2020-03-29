@@ -17,5 +17,5 @@ aws s3 ls  --summarize --human-readable --recursive s3://sg-c19-response/histori
 aws s3 sync s3://sg-c19-response/historicpatterns/ /local_folder/ --profile safegraph
 
 # download a specific file
-aws s3 cp s3://sg-c19-response/historicpatterns/Apr19-AllPatterns-PATTERNS-2019_04-2020-03-23.zip /local_file_name --profile safegraph
+aws s3 cp s3://sg-c19-response/historicpatterns/Apr19-AllPatterns-PATTERNS-2019_04-2020-03-23.zip /local_file_name.zip --profile safegraph
 ```
